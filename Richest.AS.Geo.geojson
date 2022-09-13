@@ -1,0 +1,1318 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":1,
+    "Name":"Elon Musk",
+    "Net worth":"$269.7 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":2,
+    "Name":"Jeff Bezos",
+    "Net worth":"$170.2 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.213749,46.227638 ]
+    },
+    "properties": {
+    "Rank":3,
+    "Name":"Bernard Arnault & family",
+    "Net worth":"$166.8 B",
+    "Country":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":4,
+    "Name":"Bill Gates",
+    "Net worth":"$130.2 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.96288,20.593684 ]
+    },
+    "properties": {
+    "Rank":5,
+    "Name":"Gautam Adani & family",
+    "Net worth":"$123.0 B",
+    "Country":"India"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":6,
+    "Name":"Warren Buffett",
+    "Net worth":"$121.7 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":7,
+    "Name":"Larry Ellison",
+    "Net worth":"$107.6 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.96288,20.593684 ]
+    },
+    "properties": {
+    "Rank":8,
+    "Name":"Mukesh Ambani",
+    "Net worth":"$103.2 B",
+    "Country":"India"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":9,
+    "Name":"Larry Page",
+    "Net worth":"$102.4 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":10,
+    "Name":"Sergey Brin",
+    "Net worth":"$98.5 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":11,
+    "Name":"Steve Ballmer",
+    "Net worth":"$89.8 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.552784,23.634501 ]
+    },
+    "properties": {
+    "Rank":12,
+    "Name":"Carlos Slim Helu & family",
+    "Net worth":"$88.6 B",
+    "Country":"Mexico"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":13,
+    "Name":"Michael Bloomberg",
+    "Net worth":"$82.0 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.213749,46.227638 ]
+    },
+    "properties": {
+    "Rank":14,
+    "Name":"Francoise Bettencourt Meyers & family",
+    "Net worth":"$76.4 B",
+    "Country":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":15,
+    "Name":"Jim Walton",
+    "Net worth":"$71.6 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":16,
+    "Name":"Alice Walton",
+    "Net worth":"$70.7 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":17,
+    "Name":"Rob Walton",
+    "Net worth":"$70.3 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":18,
+    "Name":"Zhong Shanshan",
+    "Net worth":"$67.3 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":19,
+    "Name":"Mark Zuckerberg",
+    "Net worth":"$66.1 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.346771,56.130366 ]
+    },
+    "properties": {
+    "Rank":20,
+    "Name":"Changpeng Zhao",
+    "Net worth":"$65.0 B",
+    "Country":"Canada"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":21,
+    "Name":"Charles Koch",
+    "Net worth":"$62.4 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":21,
+    "Name":"Julia Koch & family",
+    "Net worth":"$62.4 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.74922,40.463667 ]
+    },
+    "properties": {
+    "Rank":23,
+    "Name":"Amancio Ortega",
+    "Net worth":"$55.9 B",
+    "Country":"Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":24,
+    "Name":"Michael Dell",
+    "Net worth":"$52.7 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":25,
+    "Name":"Zhang Yiming",
+    "Net worth":"$49.5 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":26,
+    "Name":"Phil Knight & family",
+    "Net worth":"$49.3 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.346771,56.130366 ]
+    },
+    "properties": {
+    "Rank":27,
+    "Name":"David Thomson & family",
+    "Net worth":"$48.8 B",
+    "Country":"Canada"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4541194,51.1642292 ]
+    },
+    "properties": {
+    "Rank":28,
+    "Name":"Dieter Schwarz",
+    "Net worth":"$44.2 B",
+    "Country":"Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":29,
+    "Name":"MacKenzie Scott",
+    "Net worth":"$42.6 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.213749,46.227638 ]
+    },
+    "properties": {
+    "Rank":30,
+    "Name":"Rodolphe Saadé & family",
+    "Net worth":"$41.4 B",
+    "Country":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4541194,51.1642292 ]
+    },
+    "properties": {
+    "Rank":31,
+    "Name":"Klaus-Michael Kuehne",
+    "Net worth":"$41.0 B",
+    "Country":"Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.213749,46.227638 ]
+    },
+    "properties": {
+    "Rank":32,
+    "Name":"François Pinault & family",
+    "Net worth":"$38.3 B",
+    "Country":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4541194,51.1642292 ]
+    },
+    "properties": {
+    "Rank":33,
+    "Name":"Beate Heister & Karl Albrecht Jr. & family",
+    "Net worth":"$37.8 B",
+    "Country":"Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":34,
+    "Name":"Ma Huateng",
+    "Net worth":"$35.8 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 114.109497,22.396428 ]
+    },
+    "properties": {
+    "Rank":35,
+    "Name":"Li Ka-shing",
+    "Net worth":"$35.6 B",
+    "Country":"Hong Kong"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.56738,41.87194 ]
+    },
+    "properties": {
+    "Rank":36,
+    "Name":"Giovanni Ferrero",
+    "Net worth":"$35.6 B",
+    "Country":"Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 114.109497,22.396428 ]
+    },
+    "properties": {
+    "Rank":37,
+    "Name":"Robin Zeng",
+    "Net worth":"$35.1 B",
+    "Country":"Hong Kong"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":38,
+    "Name":"John Mars",
+    "Net worth":"$34.9 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":38,
+    "Name":"Jacqueline Mars",
+    "Net worth":"$34.9 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":40,
+    "Name":"Stephen Schwarzman",
+    "Net worth":"$33.5 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 114.109497,22.396428 ]
+    },
+    "properties": {
+    "Rank":41,
+    "Name":"Lee Shau Kee",
+    "Net worth":"$33.1 B",
+    "Country":"Hong Kong"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":42,
+    "Name":"Len Blavatnik",
+    "Net worth":"$32.0 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.213749,46.227638 ]
+    },
+    "properties": {
+    "Rank":43,
+    "Name":"Alain Wertheimer",
+    "Net worth":"$31.7 B",
+    "Country":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.213749,46.227638 ]
+    },
+    "properties": {
+    "Rank":43,
+    "Name":"Gerard Wertheimer",
+    "Net worth":"$31.7 B",
+    "Country":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 133.775136,-25.274398 ]
+    },
+    "properties": {
+    "Rank":45,
+    "Name":"Gina Rinehart",
+    "Net worth":"$30.0 B",
+    "Country":"Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.56738,41.87194 ]
+    },
+    "properties": {
+    "Rank":46,
+    "Name":"Leonardo Del Vecchio & family",
+    "Net worth":"$29.5 B",
+    "Country":"Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":47,
+    "Name":"Jim Simons",
+    "Net worth":"$28.6 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.552784,23.634501 ]
+    },
+    "properties": {
+    "Rank":48,
+    "Name":"German Larrea Mota Velasco & family",
+    "Net worth":"$28.3 B",
+    "Country":"Mexico"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":49,
+    "Name":"Miriam Adelson",
+    "Net worth":"$27.5 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":50,
+    "Name":"William Lei Ding",
+    "Net worth":"$27.2 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":51,
+    "Name":"He Xiangjian",
+    "Net worth":"$26.8 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":52,
+    "Name":"Ken Griffin",
+    "Net worth":"$26.7 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.96288,20.593684 ]
+    },
+    "properties": {
+    "Rank":53,
+    "Name":"hiv Nadar",
+    "Net worth":"$26.6 B",
+    "Country":"India"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.550072,47.516231 ]
+    },
+    "properties": {
+    "Rank":54,
+    "Name":"Dietrich Mateschitz",
+    "Net worth":"$26.4 B",
+    "Country":"Austria"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 105.318756,61.52401 ]
+    },
+    "properties": {
+    "Rank":55,
+    "Name":"Vladimir Potanin",
+    "Net worth":"$25.6 B",
+    "Country":"Russia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.213749,46.227638 ]
+    },
+    "properties": {
+    "Rank":56,
+    "Name":"Emmanuel Besnier",
+    "Net worth":"$25.2 B",
+    "Country":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4541194,51.1642292 ]
+    },
+    "properties": {
+    "Rank":57,
+    "Name":"Susanne Klatten",
+    "Net worth":"$25.1 B",
+    "Country":"Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":58,
+    "Name":"Li Shufu",
+    "Net worth":"$24.9 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.252924,36.204824 ]
+    },
+    "properties": {
+    "Rank":59,
+    "Name":"Tadashi Yanai & family",
+    "Net worth":"$24.7 B",
+    "Country":"Japan"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.96288,20.593684 ]
+    },
+    "properties": {
+    "Rank":60,
+    "Name":"Cyrus Poonawalla",
+    "Net worth":"$24.2 B",
+    "Country":"India"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":61,
+    "Name":"Sam Bankman-Fried",
+    "Net worth":"$24.0 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 105.318756,61.52401 ]
+    },
+    "properties": {
+    "Rank":62,
+    "Name":"Vladimir Lisin",
+    "Net worth":"$23.8 B",
+    "Country":"Russia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":63,
+    "Name":"Qin Yinglin",
+    "Net worth":"$23.1 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 113.921327,-0.789275 ]
+    },
+    "properties": {
+    "Rank":64,
+    "Name":"R. Budi Hartono",
+    "Net worth":"$23.1 B",
+    "Country":"Indonesia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":65,
+    "Name":"Leonard Lauder",
+    "Net worth":"$23.0 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.22421,46.8131873 ]
+    },
+    "properties": {
+    "Rank":66,
+    "Name":"Guillaume Pousaz",
+    "Net worth":"$23.0 B",
+    "Country":"Switzerland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":67,
+    "Name":"Jack Ma",
+    "Net worth":"$22.8 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 113.921327,-0.789275 ]
+    },
+    "properties": {
+    "Rank":68,
+    "Name":"Michael Hartono",
+    "Net worth":"$22.2 B",
+    "Country":"Indonesia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":69,
+    "Name":"Ray Dalio",
+    "Net worth":"$22.0 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.542969,-35.675147 ]
+    },
+    "properties": {
+    "Rank":70,
+    "Name":"Iris Fontbona & family",
+    "Net worth":"$21.9 B",
+    "Country":"Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.252924,36.204824 ]
+    },
+    "properties": {
+    "Rank":71,
+    "Name":"Takemitsu Takizaki",
+    "Net worth":"$21.8 B",
+    "Country":"Japan"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4541194,51.1642292 ]
+    },
+    "properties": {
+    "Rank":72,
+    "Name":"Stefan Quandt",
+    "Net worth":"$21.4 B",
+    "Country":"Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 138.252924,36.204824 ]
+    },
+    "properties": {
+    "Rank":73,
+    "Name":"Masayoshi Son",
+    "Net worth":"$21.1 B",
+    "Country":"Japan"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 105.318756,61.52401 ]
+    },
+    "properties": {
+    "Rank":74,
+    "Name":"Andrey Melnichenko",
+    "Net worth":"$21.1 B",
+    "Country":"Russia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":75,
+    "Name":"Abigail Johnson",
+    "Net worth":"$20.8 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":76,
+    "Name":"Eric Schmidt",
+    "Net worth":"$20.7 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":77,
+    "Name":"Wang Wei",
+    "Net worth":"$20.6 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 105.318756,61.52401 ]
+    },
+    "properties": {
+    "Rank":78,
+    "Name":"Leonid Mikhelson",
+    "Net worth":"$20.5 B",
+    "Country":"Russia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 133.775136,-25.274398 ]
+    },
+    "properties": {
+    "Rank":79,
+    "Name":"Andrew Forrest",
+    "Net worth":"$20.2 B",
+    "Country":"Australia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":80,
+    "Name":"Thomas Peterffy",
+    "Net worth":"$20.2 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":81,
+    "Name":"Rupert Murdoch & family",
+    "Net worth":"$20.0 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4541194,51.1642292 ]
+    },
+    "properties": {
+    "Rank":82,
+    "Name":"Theo Albrecht Jr & family",
+    "Net worth":"$19.2 B",
+    "Country":"Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.96288,20.593684 ]
+    },
+    "properties": {
+    "Rank":83,
+    "Name":"Radhakishan Damani",
+    "Net worth":"$19.1 B",
+    "Country":"India"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":84,
+    "Name":"Wang Chuanfu",
+    "Net worth":"$19.0 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 105.318756,61.52401 ]
+    },
+    "properties": {
+    "Rank":85,
+    "Name":"Alexey Mordashov",
+    "Net worth":"$18.9 B",
+    "Country":"Russia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.96288,20.593684 ]
+    },
+    "properties": {
+    "Rank":86,
+    "Name":"Savitri Jindal & family",
+    "Net worth":"$18.7 B",
+    "Country":"India"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":87,
+    "Name":"Pang Kang",
+    "Net worth":"$18.7 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":88,
+    "Name":"Daniel Gilbert",
+    "Net worth":"$18.5 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":89,
+    "Name":"Jensen Huang",
+    "Net worth":"$18.3 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.96288,20.593684 ]
+    },
+    "properties": {
+    "Rank":90,
+    "Name":"Lakshmi Mittal",
+    "Net worth":"$18.1 B",
+    "Country":"India"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 105.318756,61.52401 ]
+    },
+    "properties": {
+    "Rank":91,
+    "Name":"Vagit Alekperov",
+    "Net worth":"$18.0 B",
+    "Country":"Russia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":92,
+    "Name":"Hank & Doug Meijer",
+    "Net worth":"$18.0 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":93,
+    "Name":"Thomas Frist Jr & family",
+    "Net worth":"$18.0 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.22421,46.8131873 ]
+    },
+    "properties": {
+    "Rank":94,
+    "Name":"Gianluigi & Rafaela Aponte",
+    "Net worth":"$17.7 B",
+    "Country":"Switzerland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":95,
+    "Name":"Lukas Walton",
+    "Net worth":"$17.7 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4541194,51.1642292 ]
+    },
+    "properties": {
+    "Rank":96,
+    "Name":"Reinhold Wuerth & family",
+    "Net worth":"$17.6 B",
+    "Country":"Germany"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":97,
+    "Name":"Steve Cohen",
+    "Net worth":"$17.4 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.712891,37.09024 ]
+    },
+    "properties": {
+    "Rank":98,
+    "Name":"Harold Hamm & family",
+    "Net worth":"$17.4 B",
+    "Country":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 105.318756,61.52401 ]
+    },
+    "properties": {
+    "Rank":99,
+    "Name":"Gennady Timchenko",
+    "Net worth":"$17.2 B",
+    "Country":"Russia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.195397,35.86166 ]
+    },
+    "properties": {
+    "Rank":100,
+    "Name":"Yang Huiyan & family",
+    "Net worth":"$17.1 B",
+    "Country":"China"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.819836,1.352083 ]
+    },
+    "properties": {
+    "Rank":101,
+    "Name":"Li Xiting",
+    "Net worth":"$17.1 B",
+    "Country":"Singapore"
+    }
+  }
+]
+}

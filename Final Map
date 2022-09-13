@@ -1,0 +1,3501 @@
+{
+  "config": {
+    "version": "v1",
+    "config": {
+      "visState": {
+        "filters": [],
+        "layers": [
+          {
+            "id": "fcol298",
+            "type": "geojson",
+            "config": {
+              "dataId": "kmi2ytm2r",
+              "label": "50 Poorest Countries",
+              "color": [
+                59,
+                30,
+                177
+              ],
+              "highlightColor": [
+                252,
+                242,
+                26,
+                255
+              ],
+              "columns": {
+                "geojson": "_geojson"
+              },
+              "isVisible": true,
+              "visConfig": {
+                "opacity": 0.8,
+                "strokeOpacity": 0.8,
+                "thickness": 1,
+                "strokeColor": [
+                  32,
+                  17,
+                  99
+                ],
+                "colorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "strokeColorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "radius": 14.6,
+                "sizeRange": [
+                  0,
+                  10
+                ],
+                "radiusRange": [
+                  0,
+                  50
+                ],
+                "heightRange": [
+                  0,
+                  500
+                ],
+                "elevationScale": 5,
+                "enableElevationZoomFactor": true,
+                "stroked": true,
+                "filled": true,
+                "enable3d": false,
+                "wireframe": false
+              },
+              "hidden": false,
+              "textLabel": [
+                {
+                  "field": null,
+                  "color": [
+                    255,
+                    255,
+                    255
+                  ],
+                  "size": 18,
+                  "offset": [
+                    0,
+                    0
+                  ],
+                  "anchor": "start",
+                  "alignment": "center"
+                }
+              ]
+            },
+            "visualChannels": {
+              "colorField": null,
+              "colorScale": "quantile",
+              "strokeColorField": null,
+              "strokeColorScale": "quantile",
+              "sizeField": null,
+              "sizeScale": "linear",
+              "heightField": null,
+              "heightScale": "linear",
+              "radiusField": null,
+              "radiusScale": "linear"
+            }
+          },
+          {
+            "id": "a8rrwe6",
+            "type": "geojson",
+            "config": {
+              "dataId": "dlufsv75v",
+              "label": "100 Richest People",
+              "color": [
+                227,
+                26,
+                26
+              ],
+              "highlightColor": [
+                252,
+                242,
+                26,
+                255
+              ],
+              "columns": {
+                "geojson": "_geojson"
+              },
+              "isVisible": true,
+              "visConfig": {
+                "opacity": 0.75,
+                "strokeOpacity": 0.8,
+                "thickness": 1,
+                "strokeColor": [
+                  109,
+                  10,
+                  10
+                ],
+                "colorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "strokeColorRange": {
+                  "name": "Global Warming",
+                  "type": "sequential",
+                  "category": "Uber",
+                  "colors": [
+                    "#5A1846",
+                    "#900C3F",
+                    "#C70039",
+                    "#E3611C",
+                    "#F1920E",
+                    "#FFC300"
+                  ]
+                },
+                "radius": 15,
+                "sizeRange": [
+                  0,
+                  10
+                ],
+                "radiusRange": [
+                  0,
+                  50
+                ],
+                "heightRange": [
+                  0,
+                  500
+                ],
+                "elevationScale": 5,
+                "enableElevationZoomFactor": true,
+                "stroked": true,
+                "filled": true,
+                "enable3d": false,
+                "wireframe": false
+              },
+              "hidden": false,
+              "textLabel": [
+                {
+                  "field": null,
+                  "color": [
+                    255,
+                    255,
+                    255
+                  ],
+                  "size": 18,
+                  "offset": [
+                    0,
+                    0
+                  ],
+                  "anchor": "start",
+                  "alignment": "center"
+                }
+              ]
+            },
+            "visualChannels": {
+              "colorField": null,
+              "colorScale": "quantile",
+              "strokeColorField": null,
+              "strokeColorScale": "quantile",
+              "sizeField": null,
+              "sizeScale": "linear",
+              "heightField": null,
+              "heightScale": "linear",
+              "radiusField": null,
+              "radiusScale": "linear"
+            }
+          }
+        ],
+        "interactionConfig": {
+          "tooltip": {
+            "fieldsToShow": {
+              "dlufsv75v": [
+                {
+                  "name": "Rank",
+                  "format": null
+                },
+                {
+                  "name": "Name",
+                  "format": null
+                },
+                {
+                  "name": "Net worth",
+                  "format": null
+                },
+                {
+                  "name": "Country",
+                  "format": null
+                }
+              ],
+              "kmi2ytm2r": [
+                {
+                  "name": "Rank",
+                  "format": null
+                },
+                {
+                  "name": "Country",
+                  "format": null
+                }
+              ]
+            },
+            "compareMode": true,
+            "compareType": "absolute",
+            "enabled": true
+          },
+          "brush": {
+            "size": 0.5,
+            "enabled": false
+          },
+          "geocoder": {
+            "enabled": false
+          },
+          "coordinate": {
+            "enabled": false
+          }
+        },
+        "layerBlending": "normal",
+        "splitMaps": [],
+        "animationConfig": {
+          "currentTime": null,
+          "speed": 1
+        }
+      },
+      "mapState": {
+        "bearing": 0,
+        "dragRotate": false,
+        "latitude": -3.700703277838059,
+        "longitude": 5.164234811022292,
+        "pitch": 0,
+        "zoom": 0.3773497969415428,
+        "isSplit": false
+      },
+      "mapStyle": {
+        "styleType": "outdoors",
+        "topLayerGroups": {},
+        "visibleLayerGroups": {},
+        "threeDBuildingColor": [
+          null,
+          null,
+          null
+        ],
+        "mapStyles": {}
+      }
+    }
+  },
+  "datasets": [
+    {
+      "version": "v1",
+      "data": {
+        "id": "dlufsv75v",
+        "label": "Richest.AS.Geo.geojson",
+        "color": [
+          0,
+          92,
+          255
+        ],
+        "allData": [
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 1,
+                "Name": "Elon Musk",
+                "Net worth": "$269.7 B",
+                "Country": "United States"
+              }
+            },
+            1,
+            "Elon Musk",
+            "$269.7 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 2,
+                "Name": "Jeff Bezos",
+                "Net worth": "$170.2 B",
+                "Country": "United States"
+              }
+            },
+            2,
+            "Jeff Bezos",
+            "$170.2 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  2.213749,
+                  46.227638
+                ]
+              },
+              "properties": {
+                "Rank": 3,
+                "Name": "Bernard Arnault & family",
+                "Net worth": "$166.8 B",
+                "Country": "France"
+              }
+            },
+            3,
+            "Bernard Arnault & family",
+            "$166.8 B",
+            "France"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 4,
+                "Name": "Bill Gates",
+                "Net worth": "$130.2 B",
+                "Country": "United States"
+              }
+            },
+            4,
+            "Bill Gates",
+            "$130.2 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  78.96288,
+                  20.593684
+                ]
+              },
+              "properties": {
+                "Rank": 5,
+                "Name": "Gautam Adani & family",
+                "Net worth": "$123.0 B",
+                "Country": "India"
+              }
+            },
+            5,
+            "Gautam Adani & family",
+            "$123.0 B",
+            "India"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 6,
+                "Name": "Warren Buffett",
+                "Net worth": "$121.7 B",
+                "Country": "United States"
+              }
+            },
+            6,
+            "Warren Buffett",
+            "$121.7 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 7,
+                "Name": "Larry Ellison",
+                "Net worth": "$107.6 B",
+                "Country": "United States"
+              }
+            },
+            7,
+            "Larry Ellison",
+            "$107.6 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  78.96288,
+                  20.593684
+                ]
+              },
+              "properties": {
+                "Rank": 8,
+                "Name": "Mukesh Ambani",
+                "Net worth": "$103.2 B",
+                "Country": "India"
+              }
+            },
+            8,
+            "Mukesh Ambani",
+            "$103.2 B",
+            "India"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 9,
+                "Name": "Larry Page",
+                "Net worth": "$102.4 B",
+                "Country": "United States"
+              }
+            },
+            9,
+            "Larry Page",
+            "$102.4 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 10,
+                "Name": "Sergey Brin",
+                "Net worth": "$98.5 B",
+                "Country": "United States"
+              }
+            },
+            10,
+            "Sergey Brin",
+            "$98.5 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 11,
+                "Name": "Steve Ballmer",
+                "Net worth": "$89.8 B",
+                "Country": "United States"
+              }
+            },
+            11,
+            "Steve Ballmer",
+            "$89.8 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -102.552784,
+                  23.634501
+                ]
+              },
+              "properties": {
+                "Rank": 12,
+                "Name": "Carlos Slim Helu & family",
+                "Net worth": "$88.6 B",
+                "Country": "Mexico"
+              }
+            },
+            12,
+            "Carlos Slim Helu & family",
+            "$88.6 B",
+            "Mexico"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 13,
+                "Name": "Michael Bloomberg",
+                "Net worth": "$82.0 B",
+                "Country": "United States"
+              }
+            },
+            13,
+            "Michael Bloomberg",
+            "$82.0 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  2.213749,
+                  46.227638
+                ]
+              },
+              "properties": {
+                "Rank": 14,
+                "Name": "Francoise Bettencourt Meyers & family",
+                "Net worth": "$76.4 B",
+                "Country": "France"
+              }
+            },
+            14,
+            "Francoise Bettencourt Meyers & family",
+            "$76.4 B",
+            "France"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 15,
+                "Name": "Jim Walton",
+                "Net worth": "$71.6 B",
+                "Country": "United States"
+              }
+            },
+            15,
+            "Jim Walton",
+            "$71.6 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 16,
+                "Name": "Alice Walton",
+                "Net worth": "$70.7 B",
+                "Country": "United States"
+              }
+            },
+            16,
+            "Alice Walton",
+            "$70.7 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 17,
+                "Name": "Rob Walton",
+                "Net worth": "$70.3 B",
+                "Country": "United States"
+              }
+            },
+            17,
+            "Rob Walton",
+            "$70.3 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 18,
+                "Name": "Zhong Shanshan",
+                "Net worth": "$67.3 B",
+                "Country": "China"
+              }
+            },
+            18,
+            "Zhong Shanshan",
+            "$67.3 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 19,
+                "Name": "Mark Zuckerberg",
+                "Net worth": "$66.1 B",
+                "Country": "United States"
+              }
+            },
+            19,
+            "Mark Zuckerberg",
+            "$66.1 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -106.346771,
+                  56.130366
+                ]
+              },
+              "properties": {
+                "Rank": 20,
+                "Name": "Changpeng Zhao",
+                "Net worth": "$65.0 B",
+                "Country": "Canada"
+              }
+            },
+            20,
+            "Changpeng Zhao",
+            "$65.0 B",
+            "Canada"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 21,
+                "Name": "Charles Koch",
+                "Net worth": "$62.4 B",
+                "Country": "United States"
+              }
+            },
+            21,
+            "Charles Koch",
+            "$62.4 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 21,
+                "Name": "Julia Koch & family",
+                "Net worth": "$62.4 B",
+                "Country": "United States"
+              }
+            },
+            21,
+            "Julia Koch & family",
+            "$62.4 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -3.74922,
+                  40.463667
+                ]
+              },
+              "properties": {
+                "Rank": 23,
+                "Name": "Amancio Ortega",
+                "Net worth": "$55.9 B",
+                "Country": "Spain"
+              }
+            },
+            23,
+            "Amancio Ortega",
+            "$55.9 B",
+            "Spain"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 24,
+                "Name": "Michael Dell",
+                "Net worth": "$52.7 B",
+                "Country": "United States"
+              }
+            },
+            24,
+            "Michael Dell",
+            "$52.7 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 25,
+                "Name": "Zhang Yiming",
+                "Net worth": "$49.5 B",
+                "Country": "China"
+              }
+            },
+            25,
+            "Zhang Yiming",
+            "$49.5 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 26,
+                "Name": "Phil Knight & family",
+                "Net worth": "$49.3 B",
+                "Country": "United States"
+              }
+            },
+            26,
+            "Phil Knight & family",
+            "$49.3 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -106.346771,
+                  56.130366
+                ]
+              },
+              "properties": {
+                "Rank": 27,
+                "Name": "David Thomson & family",
+                "Net worth": "$48.8 B",
+                "Country": "Canada"
+              }
+            },
+            27,
+            "David Thomson & family",
+            "$48.8 B",
+            "Canada"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  10.4541194,
+                  51.1642292
+                ]
+              },
+              "properties": {
+                "Rank": 28,
+                "Name": "Dieter Schwarz",
+                "Net worth": "$44.2 B",
+                "Country": "Germany"
+              }
+            },
+            28,
+            "Dieter Schwarz",
+            "$44.2 B",
+            "Germany"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 29,
+                "Name": "MacKenzie Scott",
+                "Net worth": "$42.6 B",
+                "Country": "United States"
+              }
+            },
+            29,
+            "MacKenzie Scott",
+            "$42.6 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  2.213749,
+                  46.227638
+                ]
+              },
+              "properties": {
+                "Rank": 30,
+                "Name": "Rodolphe Saadé & family",
+                "Net worth": "$41.4 B",
+                "Country": "France"
+              }
+            },
+            30,
+            "Rodolphe Saadé & family",
+            "$41.4 B",
+            "France"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  10.4541194,
+                  51.1642292
+                ]
+              },
+              "properties": {
+                "Rank": 31,
+                "Name": "Klaus-Michael Kuehne",
+                "Net worth": "$41.0 B",
+                "Country": "Germany"
+              }
+            },
+            31,
+            "Klaus-Michael Kuehne",
+            "$41.0 B",
+            "Germany"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  2.213749,
+                  46.227638
+                ]
+              },
+              "properties": {
+                "Rank": 32,
+                "Name": "François Pinault & family",
+                "Net worth": "$38.3 B",
+                "Country": "France"
+              }
+            },
+            32,
+            "François Pinault & family",
+            "$38.3 B",
+            "France"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  10.4541194,
+                  51.1642292
+                ]
+              },
+              "properties": {
+                "Rank": 33,
+                "Name": "Beate Heister & Karl Albrecht Jr. & family",
+                "Net worth": "$37.8 B",
+                "Country": "Germany"
+              }
+            },
+            33,
+            "Beate Heister & Karl Albrecht Jr. & family",
+            "$37.8 B",
+            "Germany"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 34,
+                "Name": "Ma Huateng",
+                "Net worth": "$35.8 B",
+                "Country": "China"
+              }
+            },
+            34,
+            "Ma Huateng",
+            "$35.8 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  114.109497,
+                  22.396428
+                ]
+              },
+              "properties": {
+                "Rank": 35,
+                "Name": "Li Ka-shing",
+                "Net worth": "$35.6 B",
+                "Country": "Hong Kong"
+              }
+            },
+            35,
+            "Li Ka-shing",
+            "$35.6 B",
+            "Hong Kong"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  12.56738,
+                  41.87194
+                ]
+              },
+              "properties": {
+                "Rank": 36,
+                "Name": "Giovanni Ferrero",
+                "Net worth": "$35.6 B",
+                "Country": "Italy"
+              }
+            },
+            36,
+            "Giovanni Ferrero",
+            "$35.6 B",
+            "Italy"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  114.109497,
+                  22.396428
+                ]
+              },
+              "properties": {
+                "Rank": 37,
+                "Name": "Robin Zeng",
+                "Net worth": "$35.1 B",
+                "Country": "Hong Kong"
+              }
+            },
+            37,
+            "Robin Zeng",
+            "$35.1 B",
+            "Hong Kong"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 38,
+                "Name": "John Mars",
+                "Net worth": "$34.9 B",
+                "Country": "United States"
+              }
+            },
+            38,
+            "John Mars",
+            "$34.9 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 38,
+                "Name": "Jacqueline Mars",
+                "Net worth": "$34.9 B",
+                "Country": "United States"
+              }
+            },
+            38,
+            "Jacqueline Mars",
+            "$34.9 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 40,
+                "Name": "Stephen Schwarzman",
+                "Net worth": "$33.5 B",
+                "Country": "United States"
+              }
+            },
+            40,
+            "Stephen Schwarzman",
+            "$33.5 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  114.109497,
+                  22.396428
+                ]
+              },
+              "properties": {
+                "Rank": 41,
+                "Name": "Lee Shau Kee",
+                "Net worth": "$33.1 B",
+                "Country": "Hong Kong"
+              }
+            },
+            41,
+            "Lee Shau Kee",
+            "$33.1 B",
+            "Hong Kong"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 42,
+                "Name": "Len Blavatnik",
+                "Net worth": "$32.0 B",
+                "Country": "United States"
+              }
+            },
+            42,
+            "Len Blavatnik",
+            "$32.0 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  2.213749,
+                  46.227638
+                ]
+              },
+              "properties": {
+                "Rank": 43,
+                "Name": "Alain Wertheimer",
+                "Net worth": "$31.7 B",
+                "Country": "France"
+              }
+            },
+            43,
+            "Alain Wertheimer",
+            "$31.7 B",
+            "France"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  2.213749,
+                  46.227638
+                ]
+              },
+              "properties": {
+                "Rank": 43,
+                "Name": "Gerard Wertheimer",
+                "Net worth": "$31.7 B",
+                "Country": "France"
+              }
+            },
+            43,
+            "Gerard Wertheimer",
+            "$31.7 B",
+            "France"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  133.775136,
+                  -25.274398
+                ]
+              },
+              "properties": {
+                "Rank": 45,
+                "Name": "Gina Rinehart",
+                "Net worth": "$30.0 B",
+                "Country": "Australia"
+              }
+            },
+            45,
+            "Gina Rinehart",
+            "$30.0 B",
+            "Australia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  12.56738,
+                  41.87194
+                ]
+              },
+              "properties": {
+                "Rank": 46,
+                "Name": "Leonardo Del Vecchio & family",
+                "Net worth": "$29.5 B",
+                "Country": "Italy"
+              }
+            },
+            46,
+            "Leonardo Del Vecchio & family",
+            "$29.5 B",
+            "Italy"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 47,
+                "Name": "Jim Simons",
+                "Net worth": "$28.6 B",
+                "Country": "United States"
+              }
+            },
+            47,
+            "Jim Simons",
+            "$28.6 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -102.552784,
+                  23.634501
+                ]
+              },
+              "properties": {
+                "Rank": 48,
+                "Name": "German Larrea Mota Velasco & family",
+                "Net worth": "$28.3 B",
+                "Country": "Mexico"
+              }
+            },
+            48,
+            "German Larrea Mota Velasco & family",
+            "$28.3 B",
+            "Mexico"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 49,
+                "Name": "Miriam Adelson",
+                "Net worth": "$27.5 B",
+                "Country": "United States"
+              }
+            },
+            49,
+            "Miriam Adelson",
+            "$27.5 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 50,
+                "Name": "William Lei Ding",
+                "Net worth": "$27.2 B",
+                "Country": "China"
+              }
+            },
+            50,
+            "William Lei Ding",
+            "$27.2 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 51,
+                "Name": "He Xiangjian",
+                "Net worth": "$26.8 B",
+                "Country": "China"
+              }
+            },
+            51,
+            "He Xiangjian",
+            "$26.8 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 52,
+                "Name": "Ken Griffin",
+                "Net worth": "$26.7 B",
+                "Country": "United States"
+              }
+            },
+            52,
+            "Ken Griffin",
+            "$26.7 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  78.96288,
+                  20.593684
+                ]
+              },
+              "properties": {
+                "Rank": 53,
+                "Name": "hiv Nadar",
+                "Net worth": "$26.6 B",
+                "Country": "India"
+              }
+            },
+            53,
+            "hiv Nadar",
+            "$26.6 B",
+            "India"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  14.550072,
+                  47.516231
+                ]
+              },
+              "properties": {
+                "Rank": 54,
+                "Name": "Dietrich Mateschitz",
+                "Net worth": "$26.4 B",
+                "Country": "Austria"
+              }
+            },
+            54,
+            "Dietrich Mateschitz",
+            "$26.4 B",
+            "Austria"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  105.318756,
+                  61.52401
+                ]
+              },
+              "properties": {
+                "Rank": 55,
+                "Name": "Vladimir Potanin",
+                "Net worth": "$25.6 B",
+                "Country": "Russia"
+              }
+            },
+            55,
+            "Vladimir Potanin",
+            "$25.6 B",
+            "Russia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  2.213749,
+                  46.227638
+                ]
+              },
+              "properties": {
+                "Rank": 56,
+                "Name": "Emmanuel Besnier",
+                "Net worth": "$25.2 B",
+                "Country": "France"
+              }
+            },
+            56,
+            "Emmanuel Besnier",
+            "$25.2 B",
+            "France"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  10.4541194,
+                  51.1642292
+                ]
+              },
+              "properties": {
+                "Rank": 57,
+                "Name": "Susanne Klatten",
+                "Net worth": "$25.1 B",
+                "Country": "Germany"
+              }
+            },
+            57,
+            "Susanne Klatten",
+            "$25.1 B",
+            "Germany"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 58,
+                "Name": "Li Shufu",
+                "Net worth": "$24.9 B",
+                "Country": "China"
+              }
+            },
+            58,
+            "Li Shufu",
+            "$24.9 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  138.252924,
+                  36.204824
+                ]
+              },
+              "properties": {
+                "Rank": 59,
+                "Name": "Tadashi Yanai & family",
+                "Net worth": "$24.7 B",
+                "Country": "Japan"
+              }
+            },
+            59,
+            "Tadashi Yanai & family",
+            "$24.7 B",
+            "Japan"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  78.96288,
+                  20.593684
+                ]
+              },
+              "properties": {
+                "Rank": 60,
+                "Name": "Cyrus Poonawalla",
+                "Net worth": "$24.2 B",
+                "Country": "India"
+              }
+            },
+            60,
+            "Cyrus Poonawalla",
+            "$24.2 B",
+            "India"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 61,
+                "Name": "Sam Bankman-Fried",
+                "Net worth": "$24.0 B",
+                "Country": "United States"
+              }
+            },
+            61,
+            "Sam Bankman-Fried",
+            "$24.0 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  105.318756,
+                  61.52401
+                ]
+              },
+              "properties": {
+                "Rank": 62,
+                "Name": "Vladimir Lisin",
+                "Net worth": "$23.8 B",
+                "Country": "Russia"
+              }
+            },
+            62,
+            "Vladimir Lisin",
+            "$23.8 B",
+            "Russia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 63,
+                "Name": "Qin Yinglin",
+                "Net worth": "$23.1 B",
+                "Country": "China"
+              }
+            },
+            63,
+            "Qin Yinglin",
+            "$23.1 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  113.921327,
+                  -0.789275
+                ]
+              },
+              "properties": {
+                "Rank": 64,
+                "Name": "R. Budi Hartono",
+                "Net worth": "$23.1 B",
+                "Country": "Indonesia"
+              }
+            },
+            64,
+            "R. Budi Hartono",
+            "$23.1 B",
+            "Indonesia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 65,
+                "Name": "Leonard Lauder",
+                "Net worth": "$23.0 B",
+                "Country": "United States"
+              }
+            },
+            65,
+            "Leonard Lauder",
+            "$23.0 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  8.22421,
+                  46.8131873
+                ]
+              },
+              "properties": {
+                "Rank": 66,
+                "Name": "Guillaume Pousaz",
+                "Net worth": "$23.0 B",
+                "Country": "Switzerland"
+              }
+            },
+            66,
+            "Guillaume Pousaz",
+            "$23.0 B",
+            "Switzerland"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 67,
+                "Name": "Jack Ma",
+                "Net worth": "$22.8 B",
+                "Country": "China"
+              }
+            },
+            67,
+            "Jack Ma",
+            "$22.8 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  113.921327,
+                  -0.789275
+                ]
+              },
+              "properties": {
+                "Rank": 68,
+                "Name": "Michael Hartono",
+                "Net worth": "$22.2 B",
+                "Country": "Indonesia"
+              }
+            },
+            68,
+            "Michael Hartono",
+            "$22.2 B",
+            "Indonesia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 69,
+                "Name": "Ray Dalio",
+                "Net worth": "$22.0 B",
+                "Country": "United States"
+              }
+            },
+            69,
+            "Ray Dalio",
+            "$22.0 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -71.542969,
+                  -35.675147
+                ]
+              },
+              "properties": {
+                "Rank": 70,
+                "Name": "Iris Fontbona & family",
+                "Net worth": "$21.9 B",
+                "Country": "Chile"
+              }
+            },
+            70,
+            "Iris Fontbona & family",
+            "$21.9 B",
+            "Chile"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  138.252924,
+                  36.204824
+                ]
+              },
+              "properties": {
+                "Rank": 71,
+                "Name": "Takemitsu Takizaki",
+                "Net worth": "$21.8 B",
+                "Country": "Japan"
+              }
+            },
+            71,
+            "Takemitsu Takizaki",
+            "$21.8 B",
+            "Japan"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  10.4541194,
+                  51.1642292
+                ]
+              },
+              "properties": {
+                "Rank": 72,
+                "Name": "Stefan Quandt",
+                "Net worth": "$21.4 B",
+                "Country": "Germany"
+              }
+            },
+            72,
+            "Stefan Quandt",
+            "$21.4 B",
+            "Germany"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  138.252924,
+                  36.204824
+                ]
+              },
+              "properties": {
+                "Rank": 73,
+                "Name": "Masayoshi Son",
+                "Net worth": "$21.1 B",
+                "Country": "Japan"
+              }
+            },
+            73,
+            "Masayoshi Son",
+            "$21.1 B",
+            "Japan"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  105.318756,
+                  61.52401
+                ]
+              },
+              "properties": {
+                "Rank": 74,
+                "Name": "Andrey Melnichenko",
+                "Net worth": "$21.1 B",
+                "Country": "Russia"
+              }
+            },
+            74,
+            "Andrey Melnichenko",
+            "$21.1 B",
+            "Russia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 75,
+                "Name": "Abigail Johnson",
+                "Net worth": "$20.8 B",
+                "Country": "United States"
+              }
+            },
+            75,
+            "Abigail Johnson",
+            "$20.8 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 76,
+                "Name": "Eric Schmidt",
+                "Net worth": "$20.7 B",
+                "Country": "United States"
+              }
+            },
+            76,
+            "Eric Schmidt",
+            "$20.7 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 77,
+                "Name": "Wang Wei",
+                "Net worth": "$20.6 B",
+                "Country": "China"
+              }
+            },
+            77,
+            "Wang Wei",
+            "$20.6 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  105.318756,
+                  61.52401
+                ]
+              },
+              "properties": {
+                "Rank": 78,
+                "Name": "Leonid Mikhelson",
+                "Net worth": "$20.5 B",
+                "Country": "Russia"
+              }
+            },
+            78,
+            "Leonid Mikhelson",
+            "$20.5 B",
+            "Russia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  133.775136,
+                  -25.274398
+                ]
+              },
+              "properties": {
+                "Rank": 79,
+                "Name": "Andrew Forrest",
+                "Net worth": "$20.2 B",
+                "Country": "Australia"
+              }
+            },
+            79,
+            "Andrew Forrest",
+            "$20.2 B",
+            "Australia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 80,
+                "Name": "Thomas Peterffy",
+                "Net worth": "$20.2 B",
+                "Country": "United States"
+              }
+            },
+            80,
+            "Thomas Peterffy",
+            "$20.2 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 81,
+                "Name": "Rupert Murdoch & family",
+                "Net worth": "$20.0 B",
+                "Country": "United States"
+              }
+            },
+            81,
+            "Rupert Murdoch & family",
+            "$20.0 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  10.4541194,
+                  51.1642292
+                ]
+              },
+              "properties": {
+                "Rank": 82,
+                "Name": "Theo Albrecht Jr & family",
+                "Net worth": "$19.2 B",
+                "Country": "Germany"
+              }
+            },
+            82,
+            "Theo Albrecht Jr & family",
+            "$19.2 B",
+            "Germany"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  78.96288,
+                  20.593684
+                ]
+              },
+              "properties": {
+                "Rank": 83,
+                "Name": "Radhakishan Damani",
+                "Net worth": "$19.1 B",
+                "Country": "India"
+              }
+            },
+            83,
+            "Radhakishan Damani",
+            "$19.1 B",
+            "India"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 84,
+                "Name": "Wang Chuanfu",
+                "Net worth": "$19.0 B",
+                "Country": "China"
+              }
+            },
+            84,
+            "Wang Chuanfu",
+            "$19.0 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  105.318756,
+                  61.52401
+                ]
+              },
+              "properties": {
+                "Rank": 85,
+                "Name": "Alexey Mordashov",
+                "Net worth": "$18.9 B",
+                "Country": "Russia"
+              }
+            },
+            85,
+            "Alexey Mordashov",
+            "$18.9 B",
+            "Russia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  78.96288,
+                  20.593684
+                ]
+              },
+              "properties": {
+                "Rank": 86,
+                "Name": "Savitri Jindal & family",
+                "Net worth": "$18.7 B",
+                "Country": "India"
+              }
+            },
+            86,
+            "Savitri Jindal & family",
+            "$18.7 B",
+            "India"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 87,
+                "Name": "Pang Kang",
+                "Net worth": "$18.7 B",
+                "Country": "China"
+              }
+            },
+            87,
+            "Pang Kang",
+            "$18.7 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 88,
+                "Name": "Daniel Gilbert",
+                "Net worth": "$18.5 B",
+                "Country": "United States"
+              }
+            },
+            88,
+            "Daniel Gilbert",
+            "$18.5 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 89,
+                "Name": "Jensen Huang",
+                "Net worth": "$18.3 B",
+                "Country": "United States"
+              }
+            },
+            89,
+            "Jensen Huang",
+            "$18.3 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  78.96288,
+                  20.593684
+                ]
+              },
+              "properties": {
+                "Rank": 90,
+                "Name": "Lakshmi Mittal",
+                "Net worth": "$18.1 B",
+                "Country": "India"
+              }
+            },
+            90,
+            "Lakshmi Mittal",
+            "$18.1 B",
+            "India"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  105.318756,
+                  61.52401
+                ]
+              },
+              "properties": {
+                "Rank": 91,
+                "Name": "Vagit Alekperov",
+                "Net worth": "$18.0 B",
+                "Country": "Russia"
+              }
+            },
+            91,
+            "Vagit Alekperov",
+            "$18.0 B",
+            "Russia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 92,
+                "Name": "Hank & Doug Meijer",
+                "Net worth": "$18.0 B",
+                "Country": "United States"
+              }
+            },
+            92,
+            "Hank & Doug Meijer",
+            "$18.0 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 93,
+                "Name": "Thomas Frist Jr & family",
+                "Net worth": "$18.0 B",
+                "Country": "United States"
+              }
+            },
+            93,
+            "Thomas Frist Jr & family",
+            "$18.0 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  8.22421,
+                  46.8131873
+                ]
+              },
+              "properties": {
+                "Rank": 94,
+                "Name": "Gianluigi & Rafaela Aponte",
+                "Net worth": "$17.7 B",
+                "Country": "Switzerland"
+              }
+            },
+            94,
+            "Gianluigi & Rafaela Aponte",
+            "$17.7 B",
+            "Switzerland"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 95,
+                "Name": "Lukas Walton",
+                "Net worth": "$17.7 B",
+                "Country": "United States"
+              }
+            },
+            95,
+            "Lukas Walton",
+            "$17.7 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  10.4541194,
+                  51.1642292
+                ]
+              },
+              "properties": {
+                "Rank": 96,
+                "Name": "Reinhold Wuerth & family",
+                "Net worth": "$17.6 B",
+                "Country": "Germany"
+              }
+            },
+            96,
+            "Reinhold Wuerth & family",
+            "$17.6 B",
+            "Germany"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 97,
+                "Name": "Steve Cohen",
+                "Net worth": "$17.4 B",
+                "Country": "United States"
+              }
+            },
+            97,
+            "Steve Cohen",
+            "$17.4 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -95.712891,
+                  37.09024
+                ]
+              },
+              "properties": {
+                "Rank": 98,
+                "Name": "Harold Hamm & family",
+                "Net worth": "$17.4 B",
+                "Country": "United States"
+              }
+            },
+            98,
+            "Harold Hamm & family",
+            "$17.4 B",
+            "United States"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  105.318756,
+                  61.52401
+                ]
+              },
+              "properties": {
+                "Rank": 99,
+                "Name": "Gennady Timchenko",
+                "Net worth": "$17.2 B",
+                "Country": "Russia"
+              }
+            },
+            99,
+            "Gennady Timchenko",
+            "$17.2 B",
+            "Russia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.195397,
+                  35.86166
+                ]
+              },
+              "properties": {
+                "Rank": 100,
+                "Name": "Yang Huiyan & family",
+                "Net worth": "$17.1 B",
+                "Country": "China"
+              }
+            },
+            100,
+            "Yang Huiyan & family",
+            "$17.1 B",
+            "China"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  103.819836,
+                  1.352083
+                ]
+              },
+              "properties": {
+                "Rank": 101,
+                "Name": "Li Xiting",
+                "Net worth": "$17.1 B",
+                "Country": "Singapore"
+              }
+            },
+            101,
+            "Li Xiting",
+            "$17.1 B",
+            "Singapore"
+          ]
+        ],
+        "fields": [
+          {
+            "name": "_geojson",
+            "type": "geojson",
+            "format": "",
+            "analyzerType": "GEOMETRY"
+          },
+          {
+            "name": "Rank",
+            "type": "integer",
+            "format": "",
+            "analyzerType": "INT"
+          },
+          {
+            "name": "Name",
+            "type": "string",
+            "format": "",
+            "analyzerType": "STRING"
+          },
+          {
+            "name": "Net worth",
+            "type": "string",
+            "format": "",
+            "analyzerType": "STRING"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "",
+            "analyzerType": "STRING"
+          }
+        ]
+      }
+    },
+    {
+      "version": "v1",
+      "data": {
+        "id": "kmi2ytm2r",
+        "label": "50 poorest.geojson",
+        "color": [
+          192,
+          108,
+          132
+        ],
+        "allData": [
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.918886,
+                  -3.373056
+                ]
+              },
+              "properties": {
+                "Rank": 1,
+                "Country": "Burundi"
+              }
+            },
+            1,
+            "Burundi"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": {}
+              },
+              "properties": {
+                "Rank": 2,
+                "Country": "Central African Rep."
+              }
+            },
+            2,
+            "Central African Rep."
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  15.827659,
+                  -0.228021
+                ]
+              },
+              "properties": {
+                "Rank": 3,
+                "Country": "DR Congo"
+              }
+            },
+            3,
+            "DR Congo"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.6949232,
+                  7.8626845
+                ]
+              },
+              "properties": {
+                "Rank": 4,
+                "Country": "South Sudan**"
+              }
+            },
+            4,
+            "South Sudan**"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  46.199616,
+                  5.152149
+                ]
+              },
+              "properties": {
+                "Rank": 5,
+                "Country": "Somalia"
+              }
+            },
+            5,
+            "Somalia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  8.081666,
+                  17.607789
+                ]
+              },
+              "properties": {
+                "Rank": 6,
+                "Country": "Niger"
+              }
+            },
+            6,
+            "Niger"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  35.529562,
+                  -18.665695
+                ]
+              },
+              "properties": {
+                "Rank": 7,
+                "Country": "Mozambique"
+              }
+            },
+            7,
+            "Mozambique"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -9.429499,
+                  6.428055
+                ]
+              },
+              "properties": {
+                "Rank": 8,
+                "Country": "Liberia"
+              }
+            },
+            8,
+            "Liberia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  46.869107,
+                  -18.766947
+                ]
+              },
+              "properties": {
+                "Rank": 9,
+                "Country": "Madagascar"
+              }
+            },
+            9,
+            "Madagascar"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  34.301525,
+                  -13.254308
+                ]
+              },
+              "properties": {
+                "Rank": 10,
+                "Country": "Malawi"
+              }
+            },
+            10,
+            "Malawi"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  18.732207,
+                  15.454166
+                ]
+              },
+              "properties": {
+                "Rank": 11,
+                "Country": "Chad"
+              }
+            },
+            11,
+            "Chad"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  39.782334,
+                  15.179384
+                ]
+              },
+              "properties": {
+                "Rank": 12,
+                "Country": "Eritrea****"
+              }
+            },
+            12,
+            "Eritrea****"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -11.779889,
+                  8.460555
+                ]
+              },
+              "properties": {
+                "Rank": 13,
+                "Country": "Sierra Leone"
+              }
+            },
+            13,
+            "Sierra Leone"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -15.180413,
+                  11.803749
+                ]
+              },
+              "properties": {
+                "Rank": 14,
+                "Country": "Guinea-Bissau"
+              }
+            },
+            14,
+            "Guinea-Bissau"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  67.709953,
+                  33.93911
+                ]
+              },
+              "properties": {
+                "Rank": 15,
+                "Country": "Afghanistan"
+              }
+            },
+            15,
+            "Afghanistan"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.873888,
+                  -1.940278
+                ]
+              },
+              "properties": {
+                "Rank": 16,
+                "Country": "Rwanda"
+              }
+            },
+            16,
+            "Rwanda"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  0.824782,
+                  8.619543
+                ]
+              },
+              "properties": {
+                "Rank": 17,
+                "Country": "Togo"
+              }
+            },
+            17,
+            "Togo"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -1.561593,
+                  12.238333
+                ]
+              },
+              "properties": {
+                "Rank": 18,
+                "Country": "Burkina Faso"
+              }
+            },
+            18,
+            "Burkina Faso"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -15.310139,
+                  13.443182
+                ]
+              },
+              "properties": {
+                "Rank": 19,
+                "Country": "Gambia"
+              }
+            },
+            19,
+            "Gambia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  32.290275,
+                  1.373333
+                ]
+              },
+              "properties": {
+                "Rank": 20,
+                "Country": "Uganda"
+              }
+            },
+            20,
+            "Uganda"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -3.996166,
+                  17.570692
+                ]
+              },
+              "properties": {
+                "Rank": 21,
+                "Country": "Mali"
+              }
+            },
+            21,
+            "Mali"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -168.734039,
+                  -3.370417
+                ]
+              },
+              "properties": {
+                "Rank": 22,
+                "Country": "Kiribati"
+              }
+            },
+            22,
+            "Kiribati"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  40.489673,
+                  9.145
+                ]
+              },
+              "properties": {
+                "Rank": 23,
+                "Country": "Ethiopia"
+              }
+            },
+            23,
+            "Ethiopia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  28.233608,
+                  -29.609988
+                ]
+              },
+              "properties": {
+                "Rank": 24,
+                "Country": "Lesotho"
+              }
+            },
+            24,
+            "Lesotho"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  160.156194,
+                  -9.64571
+                ]
+              },
+              "properties": {
+                "Rank": 25,
+                "Country": "Solomon Islands"
+              }
+            },
+            25,
+            "Solomon Islands"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  34.888822,
+                  -6.369028
+                ]
+              },
+              "properties": {
+                "Rank": 26,
+                "Country": "Tanzania"
+              }
+            },
+            26,
+            "Tanzania"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -9.696645,
+                  9.945587
+                ]
+              },
+              "properties": {
+                "Rank": 27,
+                "Country": "Guinea"
+              }
+            },
+            27,
+            "Guinea"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  166.959158,
+                  -15.376706
+                ]
+              },
+              "properties": {
+                "Rank": 28,
+                "Country": "Vanuatu"
+              }
+            },
+            28,
+            "Vanuatu"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -72.285215,
+                  18.971187
+                ]
+              },
+              "properties": {
+                "Rank": 29,
+                "Country": "Haiti"
+              }
+            },
+            29,
+            "Haiti"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": {}
+              },
+              "properties": {
+                "Rank": 30,
+                "Country": "Comoros"
+              }
+            },
+            30,
+            "Comoros"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  27.849332,
+                  -13.133897
+                ]
+              },
+              "properties": {
+                "Rank": 31,
+                "Country": "Zambia"
+              }
+            },
+            31,
+            "Zambia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  -14.452362,
+                  14.497401
+                ]
+              },
+              "properties": {
+                "Rank": 32,
+                "Country": "Senegal"
+              }
+            },
+            32,
+            "Senegal"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  2.315834,
+                  9.30769
+                ]
+              },
+              "properties": {
+                "Rank": 33,
+                "Country": "Benin"
+              }
+            },
+            33,
+            "Benin"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  29.154857,
+                  -19.015438
+                ]
+              },
+              "properties": {
+                "Rank": 34,
+                "Country": "Zimbabwe"
+              }
+            },
+            34,
+            "Zimbabwe"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": {}
+              },
+              "properties": {
+                "Rank": 35,
+                "Country": "Micronesia"
+              }
+            },
+            35,
+            "Micronesia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  21.758664,
+                  -4.038333
+                ]
+              },
+              "properties": {
+                "Rank": 36,
+                "Country": "Congo"
+              }
+            },
+            36,
+            "Congo"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  48.516388,
+                  15.552727
+                ]
+              },
+              "properties": {
+                "Rank": 37,
+                "Country": "Yemen***"
+              }
+            },
+            37,
+            "Yemen***"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  71.276093,
+                  38.861034
+                ]
+              },
+              "properties": {
+                "Rank": 38,
+                "Country": "Tajikistan"
+              }
+            },
+            38,
+            "Tajikistan"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  12.354722,
+                  7.369722
+                ]
+              },
+              "properties": {
+                "Rank": 39,
+                "Country": "Cameroon"
+              }
+            },
+            39,
+            "Cameroon"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  84.124008,
+                  28.394857
+                ]
+              },
+              "properties": {
+                "Rank": 40,
+                "Country": "Nepal"
+              }
+            },
+            40,
+            "Nepal"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  125.727539,
+                  -8.874217
+                ]
+              },
+              "properties": {
+                "Rank": 41,
+                "Country": "Timor-Leste"
+              }
+            },
+            41,
+            "Timor-Leste"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  30.217636,
+                  12.862807
+                ]
+              },
+              "properties": {
+                "Rank": 42,
+                "Country": "Sudan"
+              }
+            },
+            42,
+            "Sudan"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  171.184478,
+                  7.131474
+                ]
+              },
+              "properties": {
+                "Rank": 43,
+                "Country": "Marshall Islands"
+              }
+            },
+            43,
+            "Marshall Islands"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  6.613081,
+                  0.18636
+                ]
+              },
+              "properties": {
+                "Rank": 44,
+                "Country": "Sao Tome & Principe"
+              }
+            },
+            44,
+            "Sao Tome & Principe"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  143.95555,
+                  -6.314993
+                ]
+              },
+              "properties": {
+                "Rank": 45,
+                "Country": "Papua New Guinea"
+              }
+            },
+            45,
+            "Papua New Guinea"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  104.990963,
+                  12.565679
+                ]
+              },
+              "properties": {
+                "Rank": 46,
+                "Country": "Cambodia"
+              }
+            },
+            46,
+            "Cambodia"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  37.906193,
+                  -0.023559
+                ]
+              },
+              "properties": {
+                "Rank": 47,
+                "Country": "Kenya"
+              }
+            },
+            47,
+            "Kenya"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  177.64933,
+                  -7.109535
+                ]
+              },
+              "properties": {
+                "Rank": 48,
+                "Country": "Tuvalu"
+              }
+            },
+            48,
+            "Tuvalu"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  69.345116,
+                  30.375321
+                ]
+              },
+              "properties": {
+                "Rank": 49,
+                "Country": "Pakistan"
+              }
+            },
+            49,
+            "Pakistan"
+          ],
+          [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  74.766098,
+                  41.20438
+                ]
+              },
+              "properties": {
+                "Rank": 50,
+                "Country": "Kyrgyzstan"
+              }
+            },
+            50,
+            "Kyrgyzstan"
+          ]
+        ],
+        "fields": [
+          {
+            "name": "_geojson",
+            "type": "geojson",
+            "format": "",
+            "analyzerType": "GEOMETRY"
+          },
+          {
+            "name": "Rank",
+            "type": "integer",
+            "format": "",
+            "analyzerType": "INT"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "",
+            "analyzerType": "STRING"
+          }
+        ]
+      }
+    }
+  ],
+  "info": {
+    "app": "kepler.gl",
+    "source": "GeoDataViewer",
+    "created_at": "Tue, 06 Sep 2022 11:29:27 GMT"
+  }
+}
